@@ -1,0 +1,13 @@
+Since I'm pretty satisfied with my description of the project I'm working on for this class I think 
+I'll describe something I was working on recently for my job.
+
+So, there's this other company that occasionally takes business from us and I had a bit of time on 
+my hands for a bit so I figured I'd try to replicate the core of the technology they offer just to prove 
+that they're not so great like everyone thinks they are. To start, I set up an express.js backend 
+web application on a local node server. At the root route I put a script that takes a gif of your 
+choosing, splices the frames into an array of objects, then loops through that array to rebuild the 
+gif from the spliced frames. The cool part is that, within that for loop, you can add text or shape 
+data on top of the original frame so that the final gif renders as the original gif *plus* your 
+customizated text or animation over top. Additionally, the data determining the text and/or shape data
+can be passed into the script through URL parameters, allowing the host to serve up completely 
+unique, personalized images for web and email. Who's the hotshot now, MoveableInk?
